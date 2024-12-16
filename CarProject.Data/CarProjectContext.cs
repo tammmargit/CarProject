@@ -1,6 +1,7 @@
 using CarProject.Core.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
+using CarProject.Data;
 
 namespace CarProject.Data;
 

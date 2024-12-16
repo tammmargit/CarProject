@@ -1,0 +1,12 @@
+/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Core/obj/Debug/net8.0/CarProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Core/obj/Debug/net8.0/CarProject.Core.AssemblyInfoInputs.cache
+/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Core/obj/Debug/net8.0/CarProject.Core.AssemblyInfo.cs
+/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Core/obj/Debug/net8.0/CarProject.Core.csproj.CoreCompileInputs.cache
+/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Core/obj/Debug/net8.0/CarProject.Core.sourcelink.json
+/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Core/bin/Debug/net8.0/CarProject.Core.deps.json
+/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Core/bin/Debug/net8.0/CarProject.Core.dll
+/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Core/bin/Debug/net8.0/CarProject.Core.pdb
+/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Core/obj/Debug/net8.0/CarProject.Core.dll
+/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Core/obj/Debug/net8.0/refint/CarProject.Core.dll
+/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Core/obj/Debug/net8.0/CarProject.Core.pdb
+/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Core/obj/Debug/net8.0/ref/CarProject.Core.dll

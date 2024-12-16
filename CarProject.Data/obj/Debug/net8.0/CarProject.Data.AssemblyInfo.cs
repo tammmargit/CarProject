@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarProject.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e3dada04940c2b335ba627d5ece85d23925c0a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a13d5afeba9ee7e9fead110e6e6fecb4b074acb")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarProject.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarProject.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
