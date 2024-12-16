@@ -2,7 +2,9 @@
 /Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.ApplicationServices/bin/Debug/net8.0/CarProject.ApplicationServices.dll
 /Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.ApplicationServices/bin/Debug/net8.0/CarProject.ApplicationServices.pdb
 /Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.ApplicationServices/bin/Debug/net8.0/CarProject.Core.dll
+/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.ApplicationServices/bin/Debug/net8.0/CarProject.Data.dll
 /Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.ApplicationServices/bin/Debug/net8.0/CarProject.Core.pdb
+/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.ApplicationServices/bin/Debug/net8.0/CarProject.Data.pdb
 /Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.ApplicationServices/obj/Debug/net8.0/CarProject.ApplicationServices.csproj.AssemblyReference.cache
 /Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.ApplicationServices/obj/Debug/net8.0/CarProject.ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
 /Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.ApplicationServices/obj/Debug/net8.0/CarProject.ApplicationServices.AssemblyInfoInputs.cache
@@ -14,5 +16,3 @@
 /Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.ApplicationServices/obj/Debug/net8.0/refint/CarProject.ApplicationServices.dll
 /Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.ApplicationServices/obj/Debug/net8.0/CarProject.ApplicationServices.pdb
 /Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.ApplicationServices/obj/Debug/net8.0/ref/CarProject.ApplicationServices.dll
-/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.ApplicationServices/bin/Debug/net8.0/CarProject.Data.dll
-/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.ApplicationServices/bin/Debug/net8.0/CarProject.Data.pdb

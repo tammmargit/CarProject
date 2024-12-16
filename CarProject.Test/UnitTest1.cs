@@ -1,10 +1,113 @@
-namespace CarProject.Test;
+using CarProject.Core.Domain;
+using CarProject.Core.ServiceInterface;
+using CarProject.ApplicationServices.Services;
+using CarProject.Data;
+using Microsoft.EntityFrameworkCore;
+using Moq;
+using Xunit;
 
-public class UnitTest1
+namespace CarProject.Test.Services;
+
+public class CarServiceTests : IDisposable
 {
-    [Fact]
-    public void Test1()
-    {
+    private readonly CarService _carService;
+    private readonly CarProjectContext _context;
 
+    public CarServiceTests()
+    {
+        var options = new DbContextOptionsBuilder<CarProjectContext>()
+            .UseInMemoryDatabase(databaseName: "CarProject")
+            .Options;
+
+        _context = new CarProjectContext(options);
+        
+        // Clear the database before each test
+        _context.Cars.RemoveRange(_context.Cars);
+        _context.SaveChanges();
+        
+        _carService = new CarService(_context);
+    }
+
+    public void Dispose()
+    {
+        // Clean up after each test
+        _context.Cars.RemoveRange(_context.Cars);
+        _context.SaveChanges();
+        _context.Dispose();
+    }
+
+    [Fact]
+    public async Task CreateCarAsync_ShouldAddCar()
+    {
+        // Arrange
+        var car = new Car
+        {
+            Make = "Toyota",
+            Model = "Corolla",
+            Year = 2020,
+            Color = "White",
+            Price = 15000
+        };
+
+        // Act
+        var result = await _carService.CreateCarAsync(car);
+
+        // Assert
+        Assert.NotNull(result);
+        Assert.Equal("Toyota", result.Make);
+        Assert.Single(_context.Cars);
+    }
+
+    [Fact]
+    public async Task GetAllCarsAsync_ShouldReturnAllCars()
+    {
+        // Arrange
+        _context.Cars.AddRange(
+            new Car { Make = "Ford", Model = "Focus", Year = 2018, Color = "Blue", Price = 12000 },
+            new Car { Make = "Honda", Model = "Civic", Year = 2019, Color = "Red", Price = 14000 }
+        );
+        await _context.SaveChangesAsync();
+
+        // Act
+        var cars = await _carService.GetAllCarsAsync();
+
+        // Assert
+        Assert.Equal(2, cars.Count());
+    }
+
+    [Fact]
+    public async Task UpdateCarAsync_ShouldModifyCar()
+    {
+        // Arrange
+        var car = new Car { Make = "Nissan", Model = "Altima", Year = 2021, Color = "Black", Price = 18000 };
+        _context.Cars.Add(car);
+        await _context.SaveChangesAsync();
+
+        car.Color = "Silver";
+        car.Price = 19000;
+
+        // Act
+        var updatedCar = await _carService.UpdateCarAsync(car);
+
+        // Assert
+        Assert.Equal("Silver", updatedCar.Color);
+        Assert.Equal(19000, updatedCar.Price);
+    }
+
+    [Fact]
+    public async Task DeleteCarAsync_ShouldRemoveCar()
+    {
+        // Arrange
+        var car = new Car { Make = "BMW", Model = "X5", Year = 2022, Color = "Grey", Price = 50000 };
+        _context.Cars.Add(car);
+        await _context.SaveChangesAsync();
+
+        // Act
+        var result = await _carService.DeleteCarAsync(car.Id);
+        var deletedCar = await _context.Cars.FindAsync(car.Id);
+
+        // Assert
+        Assert.True(result);
+        Assert.Null(deletedCar);
     }
 }

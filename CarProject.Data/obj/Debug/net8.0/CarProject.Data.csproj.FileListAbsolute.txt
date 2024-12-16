@@ -1,4 +1,5 @@
 /Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Data/bin/Debug/net8.0/CarProject.Data.deps.json
+/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Data/bin/Debug/net8.0/CarProject.Data.runtimeconfig.json
 /Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Data/bin/Debug/net8.0/CarProject.Data.dll
 /Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Data/bin/Debug/net8.0/CarProject.Data.pdb
 /Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Data/bin/Debug/net8.0/CarProject.Core.dll
@@ -13,6 +14,5 @@
 /Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Data/obj/Debug/net8.0/CarProject.Data.dll
 /Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Data/obj/Debug/net8.0/refint/CarProject.Data.dll
 /Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Data/obj/Debug/net8.0/CarProject.Data.pdb
-/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Data/obj/Debug/net8.0/ref/CarProject.Data.dll
-/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Data/bin/Debug/net8.0/CarProject.Data.runtimeconfig.json
 /Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Data/obj/Debug/net8.0/CarProject.Data.genruntimeconfig.cache
+/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Data/obj/Debug/net8.0/ref/CarProject.Data.dll

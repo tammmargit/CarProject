@@ -246,6 +246,9 @@
               },
               "/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Core/CarProject.Core.csproj": {
                 "projectPath": "/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Core/CarProject.Core.csproj"
+              },
+              "/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Data/CarProject.Data.csproj": {
+                "projectPath": "/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject.Data/CarProject.Data.csproj"
               }
             }
           }
@@ -265,9 +268,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
             },
             "coverlet.collector": {
               "target": "Package",
