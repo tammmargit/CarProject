@@ -1,0 +1,3 @@
+/Users/margittammeorg/Desktop/Ingvar proge/CarProject/publish/CarProject.Core.dll
+/Users/margittammeorg/Desktop/Ingvar proge/CarProject/publish/CarProject.Core.deps.json
+/Users/margittammeorg/Desktop/Ingvar proge/CarProject/publish/CarProject.Core.pdb

@@ -39,7 +39,6 @@ public class CarServiceTests : IDisposable
     [Fact]
     public async Task CreateCarAsync_ShouldAddCar()
     {
-        // Arrange
         var car = new Car
         {
             Make = "Toyota",
@@ -49,10 +48,8 @@ public class CarServiceTests : IDisposable
             Price = 15000
         };
 
-        // Act
         var result = await _carService.CreateCarAsync(car);
 
-        // Assert
         Assert.NotNull(result);
         Assert.Equal("Toyota", result.Make);
         Assert.Single(_context.Cars);
@@ -61,24 +58,20 @@ public class CarServiceTests : IDisposable
     [Fact]
     public async Task GetAllCarsAsync_ShouldReturnAllCars()
     {
-        // Arrange
         _context.Cars.AddRange(
             new Car { Make = "Ford", Model = "Focus", Year = 2018, Color = "Blue", Price = 12000 },
             new Car { Make = "Honda", Model = "Civic", Year = 2019, Color = "Red", Price = 14000 }
         );
         await _context.SaveChangesAsync();
 
-        // Act
         var cars = await _carService.GetAllCarsAsync();
 
-        // Assert
         Assert.Equal(2, cars.Count());
     }
 
     [Fact]
     public async Task UpdateCarAsync_ShouldModifyCar()
     {
-        // Arrange
         var car = new Car { Make = "Nissan", Model = "Altima", Year = 2021, Color = "Black", Price = 18000 };
         _context.Cars.Add(car);
         await _context.SaveChangesAsync();
@@ -86,10 +79,8 @@ public class CarServiceTests : IDisposable
         car.Color = "Silver";
         car.Price = 19000;
 
-        // Act
         var updatedCar = await _carService.UpdateCarAsync(car);
 
-        // Assert
         Assert.Equal("Silver", updatedCar.Color);
         Assert.Equal(19000, updatedCar.Price);
     }
@@ -97,16 +88,13 @@ public class CarServiceTests : IDisposable
     [Fact]
     public async Task DeleteCarAsync_ShouldRemoveCar()
     {
-        // Arrange
         var car = new Car { Make = "BMW", Model = "X5", Year = 2022, Color = "Grey", Price = 50000 };
         _context.Cars.Add(car);
         await _context.SaveChangesAsync();
 
-        // Act
         var result = await _carService.DeleteCarAsync(car.Id);
         var deletedCar = await _context.Cars.FindAsync(car.Id);
 
-        // Assert
         Assert.True(result);
         Assert.Null(deletedCar);
     }
