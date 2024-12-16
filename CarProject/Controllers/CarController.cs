@@ -1,5 +1,5 @@
-using CarApp.Core.Domain;
-using CarApp.Core.ServiceInterface;
+using CarProject.Core.Domain;
+using CarProject.Core.ServiceInterface;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CarProject.Controllers;

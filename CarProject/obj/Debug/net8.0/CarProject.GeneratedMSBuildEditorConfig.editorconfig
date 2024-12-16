@@ -18,6 +18,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject/Views/Car/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FyL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject/Views/Car/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FyL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject/Views/Car/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FyL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject/Views/Car/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FyL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject/Views/Car/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/margittammeorg/Desktop/Ingvar proge/CarProject/CarProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
