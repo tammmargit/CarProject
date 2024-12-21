@@ -1,0 +1,11 @@
+D:\Users\margi\Desktop\Car\CarApp.Core\bin\Release\net8.0\CarApp.Core.deps.json
+D:\Users\margi\Desktop\Car\CarApp.Core\bin\Release\net8.0\CarApp.Core.dll
+D:\Users\margi\Desktop\Car\CarApp.Core\bin\Release\net8.0\CarApp.Core.pdb
+D:\Users\margi\Desktop\Car\CarApp.Core\obj\Release\net8.0\CarApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\margi\Desktop\Car\CarApp.Core\obj\Release\net8.0\CarApp.Core.AssemblyInfoInputs.cache
+D:\Users\margi\Desktop\Car\CarApp.Core\obj\Release\net8.0\CarApp.Core.AssemblyInfo.cs
+D:\Users\margi\Desktop\Car\CarApp.Core\obj\Release\net8.0\CarApp.Core.csproj.CoreCompileInputs.cache
+D:\Users\margi\Desktop\Car\CarApp.Core\obj\Release\net8.0\CarApp.Core.dll
+D:\Users\margi\Desktop\Car\CarApp.Core\obj\Release\net8.0\refint\CarApp.Core.dll
+D:\Users\margi\Desktop\Car\CarApp.Core\obj\Release\net8.0\CarApp.Core.pdb
+D:\Users\margi\Desktop\Car\CarApp.Core\obj\Release\net8.0\ref\CarApp.Core.dll

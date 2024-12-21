@@ -1,0 +1,17 @@
+D:\Users\margi\Desktop\Car\CarApp.ApplicationServices\bin\Debug\net8.0\CarApp.ApplicationServices.deps.json
+D:\Users\margi\Desktop\Car\CarApp.ApplicationServices\bin\Debug\net8.0\CarApp.ApplicationServices.dll
+D:\Users\margi\Desktop\Car\CarApp.ApplicationServices\bin\Debug\net8.0\CarApp.ApplicationServices.pdb
+D:\Users\margi\Desktop\Car\CarApp.ApplicationServices\bin\Debug\net8.0\CarApp.Core.dll
+D:\Users\margi\Desktop\Car\CarApp.ApplicationServices\bin\Debug\net8.0\CarApp.Data.dll
+D:\Users\margi\Desktop\Car\CarApp.ApplicationServices\bin\Debug\net8.0\CarApp.Core.pdb
+D:\Users\margi\Desktop\Car\CarApp.ApplicationServices\bin\Debug\net8.0\CarApp.Data.pdb
+D:\Users\margi\Desktop\Car\CarApp.ApplicationServices\obj\Debug\net8.0\CarApp.ApplicationServices.csproj.AssemblyReference.cache
+D:\Users\margi\Desktop\Car\CarApp.ApplicationServices\obj\Debug\net8.0\CarApp.ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\margi\Desktop\Car\CarApp.ApplicationServices\obj\Debug\net8.0\CarApp.ApplicationServices.AssemblyInfoInputs.cache
+D:\Users\margi\Desktop\Car\CarApp.ApplicationServices\obj\Debug\net8.0\CarApp.ApplicationServices.AssemblyInfo.cs
+D:\Users\margi\Desktop\Car\CarApp.ApplicationServices\obj\Debug\net8.0\CarApp.ApplicationServices.csproj.CoreCompileInputs.cache
+D:\Users\margi\Desktop\Car\CarApp.ApplicationServices\obj\Debug\net8.0\CarApp.A.DF976DDE.Up2Date
+D:\Users\margi\Desktop\Car\CarApp.ApplicationServices\obj\Debug\net8.0\CarApp.ApplicationServices.dll
+D:\Users\margi\Desktop\Car\CarApp.ApplicationServices\obj\Debug\net8.0\refint\CarApp.ApplicationServices.dll
+D:\Users\margi\Desktop\Car\CarApp.ApplicationServices\obj\Debug\net8.0\CarApp.ApplicationServices.pdb
+D:\Users\margi\Desktop\Car\CarApp.ApplicationServices\obj\Debug\net8.0\ref\CarApp.ApplicationServices.dll
